@@ -486,11 +486,17 @@
             </li>
           </ul>
         </div>
-        <div class="social-footer-subscribe social-footer">
-          <form action="#">
-            <p class="social-call">Подпишитесь на рассылку</p>
-            <input type="email" name="user-email" class="footer-form-input">
-            <button type="submit" class="footer-form-btn">Отправить</button>
+        <div class="social-footer-subscribe">
+          <form action="#" class="social-footer-subscribe-form">
+            <span class="social-footer-subscribe-wrapper">
+              <p class="social-call">Подпишитесь на рассылку</p>
+              <input type="email" name="footer-user-email" class="footer-form-input" placeholder="E-mail">
+            </span>
+              <button type="submit" class="footer-form-btn">Подписаться
+              <svg class="footer-form-btn-icon">
+                <use href="./images/decor/sprite-optimize.svg#icon-send"></use>
+              </svg>
+            </button>
           </form>
         </div>
        </div>
@@ -512,7 +518,6 @@
               <use href="./images/decor/sprite-optimize.svg#user-form"></use>
              </svg>
             </span>
-            
           </label>
           <label class="modal-form-field">
             Телефон
